@@ -14,6 +14,7 @@ public class SubjectsController{
 
   Subjects subjectsList = new Subjects();
 
+  //a get request that returns all the current subjects 
   @RequestMapping(value="/subject")
   @ResponseBody
   public List<Subject> viewSubjects(){
